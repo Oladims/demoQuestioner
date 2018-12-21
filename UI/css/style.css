@@ -14,6 +14,10 @@ html {
 .small {
   font-size: small;
 }
+
+.dark-nav {
+  background-color: #504766;
+}
 /* Begin Nav */
 nav {
   display: flex;
