@@ -86,7 +86,10 @@ nav ul li a.active {
 }
 
 /* End Hero */
-
+.intro-text{
+  border: 3px solid #504766;
+  color: #504766;
+}
 /* Begin featured-contents */
 .featured {
   margin-top: 5px;
@@ -124,7 +127,6 @@ footer {
   background-color: #504766;
   color: #ddd;
 }
-
 /* End footer */
 
 @media only screen and (min-width: 600px) {
