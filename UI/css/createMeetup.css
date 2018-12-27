@@ -1,0 +1,64 @@
+  nav ul li a {
+    display: inline;
+    color: #ddd;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .form h1,
+  h2,
+  h3 {
+    color: #504766;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: white;
+  }
+  
+  form div {
+    margin: 15px auto;
+  }
+  input[type="text"]:focus,
+  textarea:focus {
+    background-color: white;
+    outline: none;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  .btn {
+    background-color: #504766;
+    color: #ddd;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  form {
+    border-radius: 10px;
+    background-color: #ddd;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    p {
+      font-size: 20px;
+    }
+   
+    .questions p {
+      font-size: 12px;
+    }
+  }
+  
+  
