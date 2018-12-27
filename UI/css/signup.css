@@ -42,7 +42,6 @@ nav ul li a.active {
   text-decoration: underline;
   color: rgba(0, 35, 122, 0.7);
 }
-
 /* End Nav */
 
 /* Begin Signup */
@@ -69,7 +68,7 @@ input[type="password"] {
   width: 100%;
   padding: 15px;
   border: none;
-  background: #d79cbc;
+  background: white;
 }
 form div{
     margin: 5px 0 22px 0;

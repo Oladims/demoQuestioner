@@ -14,6 +14,10 @@ html {
 .small {
   font-size: small;
 }
+
+.dark-nav {
+  background-color: #504766;
+}
 /* Begin Nav */
 nav {
   display: flex;
@@ -82,8 +86,14 @@ nav ul li a.active {
 }
 
 /* End Hero */
-
+.intro-text{
+  border: 3px solid #504766;
+  color: #504766;
+}
 /* Begin featured-contents */
+.featured-heading{
+  color: #504766;
+}
 .featured {
   margin-top: 5px;
   display: flex;
@@ -112,6 +122,11 @@ nav ul li a.active {
   background-color: #504766;
   color: #d79cbc;
 }
+.centralize{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* End featured-contents */
 
 /* Begin footer */
@@ -120,7 +135,6 @@ footer {
   background-color: #504766;
   color: #ddd;
 }
-
 /* End footer */
 
 @media only screen and (min-width: 600px) {
@@ -212,7 +226,7 @@ footer {
   }
   /* Begin featured-contents */
   .featured {
-    height: 120px;
+    height: 150px;
   }
   .featured-contents {
     width: 100px;
@@ -238,6 +252,9 @@ footer {
     font-size: 30px;
   }
   /* Begin Hero */
+  .nav{
+    font-size: 25px;
+  }
   .hero-image {
     height: 80%;
   }
