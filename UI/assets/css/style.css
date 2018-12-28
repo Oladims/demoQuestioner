@@ -3,10 +3,15 @@ html {
   height: 100%;
   font-family: "Open Sans", "Helvetica", "Verdana", sans-serif;
   background-color: #ddd;
+  margin: 0;
 }
 
 * {
   box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 .center{
   text-align: center;
@@ -118,6 +123,7 @@ nav ul li a.active {
 .intro-text{
   border: 3px solid #504766;
   color: #504766;
+  box-shadow: 0 0 30px #504766;
 }
 /* Begin featured-contents */
 .featured-heading{
@@ -130,7 +136,6 @@ nav ul li a.active {
   align-items: center;
   height: 80px;
   background-color: #ddd;
-  color: #f5bc46;
 }
 .featured1 {
   background-color: #504766;
@@ -149,7 +154,12 @@ nav ul li a.active {
   font-size: 20px;
   font-weight: bolder;
   background-color: #504766;
-  color: #d79cbc;
+}
+.activity{
+  box-shadow: 0 0 30px #ddd;
+}
+.sponsors{
+  box-shadow: 0 0 30px #504766;
 }
 .centralize{
   display: flex;
@@ -160,13 +170,17 @@ nav ul li a.active {
 
 /* Begin footer */
 footer {
-  margin-top: 5px;
+  margin-top: 30px;
   background-color: #504766;
   color: #ddd;
 }
 /* End footer */
 
 @media only screen and (min-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
   /* Begin Nav */
   nav {
     padding-right: 10%;
@@ -232,29 +246,23 @@ footer {
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
-    background: #d79cbc;
+    background: #ddd;
   }
   input[type="email"]:focus,
   input[type="password"]:focus {
     background-color: #ddd;
     outline: none;
   }
-
   .register small a {
     color: #d79cbc;
     font-weight: bold;
   }
-
-
   .form-group {
     margin-bottom: 10px;
   }
 
   /* End Hero */
-  .container {
-    width: 80%;
-    margin: 0 auto;
-  }
+
   /* Begin featured-contents */
   .featured {
     height: 150px;
@@ -279,6 +287,10 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
   nav ul li a{
     font-size: 30px;
   }
@@ -305,7 +317,6 @@ footer {
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: #d79cbc;
     background-color: #504766;
     text-align: center;
     cursor: pointer;
@@ -316,14 +327,9 @@ footer {
     font-weight: bold;
   }
   /* End Hero */
-  .container {
-    width: 80%;
-    margin: 0 auto;
-  }
   /* Begin featured-contents */
   .featured {
-    height: 150px;
-  color: #F5BC46; */
+    height: 200px;
   }
   .featured-contents {
     width: 130px;
