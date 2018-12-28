@@ -12,20 +12,20 @@
 
   <body>
     <!-- Begin Nav -->
-    <nav>
+    <nav class="dark-nav">
         <ul>
-          <li><a class="active" href="./index.html">Home</a></li>
+          <li><a  href="./index.html">Home</a></li>
           <li><a href="meetup.html">Meetups</a></li>
           <li><a href="ask.html">Ask</a></li>
-          <li><a href="questions.html">Questions</a></li>
+          <li><a class="active" href="questions.html">Questions</a></li>
         </ul>
       </nav>
     <!-- End Nav -->
 
     <div class="container">
       <div class="header">
-        <div><h3>Question</h3></div>
-        <div><button id="askButton">Ask Question</button></div>
+        <div><h1>Question</h1></div>
+        <div><button id="askButton" class="dark-button">Ask</button></div>
       </div>
       <div class="question-section">
         <div class="question-summary" id="question-summary-53840910">
@@ -124,12 +124,12 @@
           </div>
         </div>
         <div class="post-comment comment">
-          <label for="email"><b>Comment</b></label> <br />
+          <label for="comment"><b>Comment</b></label> <br />
           <textarea>Comment here</textarea>
 
           <span id="error_comment" class="text-danger"></span>
         </div>
-        <div><button id="askButton">Post</button></div>
+        <div><button id="askButton" class="dark-button">Post</button></div>
       </div>
       <div></div>
     </div>

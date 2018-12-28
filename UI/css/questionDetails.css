@@ -15,6 +15,8 @@
 .summary {
   display: flex;
   align-items: center;
+  background-color: white;
+  margin: 10px 0;
 }
 .question-summary {
   border: 1px solid #504766;
@@ -30,7 +32,6 @@ textarea {
   margin-top: 20px;
 }
 .comment-section{
-border: 1px solid #504766;
 margin-top: 10px;
 padding: 10px;
 }

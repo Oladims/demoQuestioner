@@ -1,11 +1,6 @@
-nav {
-  background-color: #504766;
-}
+
 nav ul li a {
-  display: inline;
   color: #ddd;
-  text-align: center;
-  text-decoration: none;
 }
 
 .header {
@@ -14,10 +9,11 @@ nav ul li a {
 .question-summary {
   width: 100%;
   padding: 5px 0;
+  margin: 10px 0;
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-gap: 2px;
-  border-bottom: 1px solid #504766;
+  background-color: white;
 }
 .question-stats {
   float: none;
@@ -67,19 +63,6 @@ nav ul li a {
   border-width: 1px;
   border-style: solid;
   border-radius: 3px;
-}
-
-#askButton {
-  padding: 10px 10px;
-  border: none;
-  width: 100px;
-  opacity: 0.9;
-  color: black;
-  font-size: 13px;
-  background-color: #504766;
-  text-align: center;
-  cursor: pointer;
-  text-decoration: none;
 }
 .header {
   display: flex;

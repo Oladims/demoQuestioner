@@ -1,15 +1,5 @@
-.center {
-  text-align: center;
-}
-nav {
-  background-color: #504766;
-}
-
 nav ul li a {
-  display: inline;
   color: #ddd;
-  text-align: center;
-  text-decoration: none;
 }
 
 .form h1,
@@ -35,19 +25,8 @@ textarea:focus {
   background-color: white;
   outline: none;
 }
-
 p {
   font-size: 14px;
-}
-.btn {
-  background-color: #504766;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 30%;
-  opacity: 0.9;
-  font-size: 18px;
 }
 
 .btn:hover {
@@ -56,6 +35,10 @@ p {
 form {
   border-radius: 10px;
   background-color: #ddd;
+}
+.topQuestions{
+  background-color: white;
+  padding: 0 5px;
 }
 
 @media only screen and (min-width: 600px) {

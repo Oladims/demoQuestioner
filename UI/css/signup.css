@@ -1,13 +1,17 @@
 body,
 html {
   height: 100%;
+  font-family: "Open Sans", "Helvetica", "Verdana", sans-serif;
+  background-color: #ddd;
 }
-
 * {
   box-sizing: border-box;
 }
 .text-center {
   text-align: center;
+}
+.light-text{
+  color: #ddd;  
 }
 /* Begin Nav */
 
@@ -31,17 +35,13 @@ nav ul li {
   margin-right: 10px;
 }
 
-ul li a {
+nav ul li a {
   display: inline;
   color: #504766;
   text-align: center;
   text-decoration: none;
 }
 
-nav ul li a.active {
-  text-decoration: underline;
-  color: rgba(0, 35, 122, 0.7);
-}
 /* End Nav */
 
 /* Begin Signup */

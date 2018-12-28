@@ -1,11 +1,5 @@
-nav {
-    background-color: #504766;
-  }
   nav ul li a {
-    display: inline;
     color: #ddd;
-    text-align: center;
-    text-decoration: none;
   }
   .meetup-time, .meetup-edit{
       display: flex;
@@ -34,7 +28,6 @@ nav {
   .meetup-details:nth-child(1){
       border-top: 1px solid transparent;
   }
-
   .row  {
       display: flex;
       flex-direction: column;
@@ -43,12 +36,9 @@ nav {
       border: 1px solid #504766;
       background-color: white;
   }
-
   .mini-counts span {
     font-size: 12px;
   }
-  
- 
   .summary {
     flex: 1 auto;
     width: auto;
@@ -57,7 +47,6 @@ nav {
     overflow: hidden;
     padding: 3px;
   }
-  
   .meetup-name {
     font-size: 10px;
     text-decoration: none;
@@ -78,18 +67,6 @@ nav {
     border-radius: 3px;
   }
   
-  #askButton {
-    padding: 10px 10px;
-    border: none;
-    width: 100px;
-    opacity: 0.9;
-    color: black;
-    font-size: 13px;
-    background-color: #504766;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-  }
   .header {
     display: flex;
     justify-content: space-between;

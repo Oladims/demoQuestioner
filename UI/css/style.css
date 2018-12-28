@@ -22,7 +22,26 @@ html {
   color: gray;
 }
 .light-text {
-  color: white;
+  color: #ddd;
+}
+.center {
+  text-align: center;
+}
+
+.dark-button {
+  padding: 16px 20px;
+  border: none;
+  width: 100px;
+  opacity: 0.9;
+  color: #ddd;
+  font-size: 18px;
+  background-color: #504766;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dark-button:hover{
+  opacity: 1;
 }
 /* Begin Nav */
 nav {
@@ -194,7 +213,7 @@ footer {
     padding: 16px;
     background-color: #504766;
   }
-  .button {
+  .light-button {
     padding: 16px 20px;
     border: none;
     width: 100%;
@@ -204,7 +223,7 @@ footer {
     cursor: pointer;
     text-decoration: none;
   }
-  .button:hover {
+  .light-button:hover {
     opacity: 1;
   }
   input[type="email"],

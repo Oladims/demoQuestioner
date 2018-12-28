@@ -11,10 +11,7 @@ nav {
 }
 
 nav ul li a {
-  display: inline;
   color: #ddd;
-  text-align: center;
-  text-decoration: none;
 }
 .profile-container {
   height: 100%;
