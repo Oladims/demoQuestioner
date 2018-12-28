@@ -18,6 +18,12 @@ html {
 .dark-nav {
   background-color: #504766;
 }
+.dark-text {
+  color: gray;
+}
+.light-text {
+  color: white;
+}
 /* Begin Nav */
 nav {
   display: flex;
@@ -79,12 +85,16 @@ nav ul li a.active {
   color: #ddd;
   background-color: #504766 !important;
   opacity: 0.9;
+  text-decoration: none;
 }
 
 .hero-text .button:hover {
   opacity: 1;
 }
 
+#postBtn{
+  display: none;
+}
 /* End Hero */
 .intro-text{
   border: 3px solid #504766;
@@ -166,8 +176,12 @@ footer {
     font-size: 30px;
   }
 
-  .light-text {
-    color: white;
+  
+  #signupBtn{
+    display: none;
+  }
+  #postBtn{
+    display: inline;
   }
   .hero-forms {
     display: inline;
@@ -211,9 +225,7 @@ footer {
     color: #d79cbc;
     font-weight: bold;
   }
-  .dark-text {
-    color: gray;
-  }
+
 
   .form-group {
     margin-bottom: 10px;
@@ -263,6 +275,12 @@ footer {
     font-size: 30px;
   }
 
+  #signupBtn{
+    display: none;
+  }
+  #postBtn{
+    display: inline;
+  }
   .hero-text button {
     border: none;
     outline: 0;

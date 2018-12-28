@@ -24,8 +24,18 @@
         <form name="signup" class="container">
           <h1 class="text-center">Signup</h1>
           <div>
-            <label for="name"><b>Full Name</b></label>
-            <input id = "name" type="text" placeholder="Enter Fullname" name="fullname" />
+            <label for="name"><b>Firstname*</b></label>
+            <input id = "name" type="text" placeholder="Enter Firstname" name="fullname" />
+            <span id="error_name" class="text-danger"></span>
+          </div>
+          <div>
+            <label for="name"><b>Lastname*</b></label>
+            <input id = "name" type="text" placeholder="Enter Lastname" name="fullname" />
+            <span id="error_name" class="text-danger"></span>
+          </div>
+          <div>
+            <label for="name"><b>Othername*</b></label>
+            <input id = "name" type="text" placeholder="Enter Othername" name="fullname" />
             <span id="error_name" class="text-danger"></span>
           </div>
           <div>
@@ -33,6 +43,17 @@
             <input id = "email" type="email" placeholder="Enter Email" name="email" />
             <span id="error_email" class="text-danger"></span>
           </div>
+          
+          <div>
+            <label for="role">User / Admin? *</label>
+            <br>
+            <label>
+                <input type="radio" name="usertypeid" value="1">  User
+            </label>
+            <label>
+                <input type="radio" name="usertypeid" value="2">  Admin
+            </label>
+        </div>
           <div>
             <label for="password"><b>Password</b></label>
             <input id = "password"
