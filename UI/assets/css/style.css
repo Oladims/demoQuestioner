@@ -80,7 +80,7 @@ nav ul li a.active {
 
 /* Begin Hero */
 .hero-image {
-  background-image: url("../download.png");
+  background-image: url("../images/download.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;

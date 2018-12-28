@@ -102,7 +102,7 @@ input[type="password"]:focus {
 color:red;
 }
 .section-image {
-  background-image: url("../download.png");
+  background-image: url("../images/download.png");
   min-height: 380px;
   background-position: center;
   background-repeat: no-repeat;
